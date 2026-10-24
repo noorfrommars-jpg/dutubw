@@ -1,0 +1,14 @@
+{
+  "name": "dutube",
+  "version": "2.0.0",
+  "description": "DuTube - Production-Quality Mobile Video Streaming Platform",
+  "scripts": {
+    "start": "node server/src/server.js",
+    "build": "cd client && npm run build",
+    "server": "cd server && node src/server.js",
+    "client": "cd client && npm run dev"
+  },
+  "keywords": ["video-streaming", "youtube-api", "native-ads", "mobile-app", "pwa", "react", "express", "sqlite"],
+  "author": "DuTube Engineering",
+  "license": "MIT"
+}
